@@ -22,17 +22,17 @@ title: ERMC Katowice 2027
 email: todo@todo.todo
 description: >- # this means to ignore newlines until "baseurl:"
   ERMC Katowice 2027
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ermc2027.chombo.club"
-github_username: todo
-repository: todo
+baseurl: "/ermc-website" # the subpath of your site, e.g. /blog
+url: "https://polska-liga-mahjonga.github.io"
+github_username: Polska-Liga-Mahjonga
+repository: Polska-Liga-Mahjonga/ermc-website
 logo: /assets/images/logo.svg
 og_image: /assets/images/logo.png
 
 social:
   type: Organization
   links:
-    - "https://github.com/todo_add_link_xdd"
+    - "https://github.com/Polska-Liga-Mahjonga"
 
 defaults:
   # _posts
