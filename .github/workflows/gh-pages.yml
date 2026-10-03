@@ -1,0 +1,28 @@
+name: Build and deploy Jekyll site to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Build website
+        run: |
+          docker build . --tag "chombo:latest"
+          mkdir __build
+          id=$(docker create "chombo:latest")
+          docker cp "$id:/usr/share/nginx/html/." ./__build
+          docker rm -v $id
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./__build
