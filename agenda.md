@@ -32,7 +32,7 @@ lang: en
 18:30 – 19:00 — Coffee Break\
 19:00 – 20:30 — 10th Hanchan
 
-**Sunday 08.08.2026**\
+**Sunday 08.08.2027**\
 08:30 – 10:00 — 11th Hanchan\
 10:00 – 10:30 — Coffee Break\
 10:30 – 12:00 — 12th Hanchan\

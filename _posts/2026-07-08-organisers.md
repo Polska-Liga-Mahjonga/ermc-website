@@ -10,5 +10,5 @@ Main organiser:
 - Polish League of Mahjong (PLM) #TODO dodać link
 
 Support:
-- Upper Silesian Mahjong Association (USMA) #TODO dodać link
-- Kraków Chombo Club Association #TODO dodać link
+- [Upper Silesian Mahjong Association (USMA)](https://mahjongsilesia.wordpress.com/)
+- [Kraków Chombo Club Association](https://chombo.club/)
