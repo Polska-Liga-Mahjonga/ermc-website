@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Organisers",
-        "excerpt":"Main organiser:     Polish League of Mahjong (PLM) #TODO dodać link   Support:     Upper Silesian Mahjong Association (USMA) #TODO dodać link   Kraków Chombo Club Association #TODO dodać link  ","categories": ["blog"],
+        "excerpt":"Main organiser:     Polish League of Mahjong (PLM) #TODO dodać link   Support:     Upper Silesian Mahjong Association (USMA)   Kraków Chombo Club Association  ","categories": ["blog"],
         "tags": [],
         "url": "/ermc-website/blog/2026/07/08/organisers/",
         "teaser": null
