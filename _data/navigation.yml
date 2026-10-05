@@ -3,7 +3,7 @@ main:
     url: /agenda/
   - title: "Participants"
     url: /participants/
-  - title: "Results"
-    url: /results/
+  - title: "Registration"
+    url: /registration/
   - title: "Contact"
     url: /contact/
