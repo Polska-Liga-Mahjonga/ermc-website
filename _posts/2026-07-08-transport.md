@@ -26,6 +26,10 @@ Direct buses go from the airport to Katowice in roughly an hour. Alternatively, 
 airport train to Kraków Główny and change there for Katowice, which takes around two hours
 in total. By car the trip is about an hour.
 
+**Ostrava Airport (OSR)** in the Czech Republic is about 130 km away, around 1 hour
+15 minutes by car. From Ostrava there are direct trains and buses to Katowice, taking
+about 1.5 hours.
+
 ## By train
 
 **Katowice** is the city's main railway station, in the centre, about 15 minutes' walk
