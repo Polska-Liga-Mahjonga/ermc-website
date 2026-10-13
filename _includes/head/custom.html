@@ -8,5 +8,24 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#f8f8f8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#18171a" media="(prefers-color-scheme: dark)">
-<!-- Dark mode: same theme compiled with dark colours, applied only when the visitor's system is in dark mode -->
-<link rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}" media="(prefers-color-scheme: dark)">
+<!-- Dark mode: same theme compiled with dark colours. By default it follows the
+     visitor's system setting; the header switch (masthead.html) overrides that
+     by changing this link's media attribute, and the choice is remembered. -->
+<link id="dark-css" rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}" media="(prefers-color-scheme: dark)">
+<script>
+  window.ermcSetTheme = function (theme) {
+    var dark = theme === 'dark';
+    document.getElementById('dark-css').media = dark ? 'all' : 'not all';
+    document.documentElement.style.colorScheme = theme;
+    var metas = document.querySelectorAll('meta[name="theme-color"]');
+    for (var i = 0; i < metas.length; i++) {
+      metas[i].setAttribute('content', dark ? '#18171a' : '#f8f8f8');
+    }
+  };
+  // Apply a saved choice before the page paints, so there is no flash of the wrong theme.
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    if (saved === 'dark' || saved === 'light') window.ermcSetTheme(saved);
+  })();
+</script>

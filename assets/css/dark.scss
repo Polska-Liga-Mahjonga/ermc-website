@@ -28,6 +28,19 @@ $navicon-link-color-hover   : mix(#000, $background-color, 30%) !default;
   color-scheme: dark;
 }
 
+// The header switch shows a sun while dark mode is on.
+.theme-toggle__moon {
+  display: none;
+}
+
+.theme-toggle__sun {
+  display: inline;
+}
+
+.theme-toggle:hover {
+  color: mix(#fff, $primary-color, 30%);
+}
+
 // Same tweaks the theme's own dark skin makes.
 .page__footer-follow .social-icons i,
 .page__footer-follow .social-icons .svg-inline--fa {

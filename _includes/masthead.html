@@ -23,6 +23,41 @@
           </li>
           {%- endfor -%}
         </ul>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="icon theme-toggle__moon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M6.2 1.1a.6.6 0 0 1 .1.7A5.9 5.9 0 0 0 14.2 9.7a.6.6 0 0 1 .8.8A7.1 7.1 0 1 1 5.5 1a.6.6 0 0 1 .7.1Z"></path>
+          </svg>
+          <svg class="icon theme-toggle__sun" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+            <circle cx="8" cy="8" r="3.2"></circle>
+            <path d="M8 0a.8.8 0 0 1 .8.8v1.4a.8.8 0 0 1-1.6 0V.8A.8.8 0 0 1 8 0Zm0 13a.8.8 0 0 1 .8.8v1.4a.8.8 0 0 1-1.6 0v-1.4A.8.8 0 0 1 8 13ZM0 8a.8.8 0 0 1 .8-.8h1.4a.8.8 0 0 1 0 1.6H.8A.8.8 0 0 1 0 8Zm13 0a.8.8 0 0 1 .8-.8h1.4a.8.8 0 0 1 0 1.6h-1.4A.8.8 0 0 1 13 8ZM2.3 2.3a.8.8 0 0 1 1.1 0l1 1a.8.8 0 1 1-1.1 1.1l-1-1a.8.8 0 0 1 0-1.1Zm9.3 9.3a.8.8 0 0 1 1.1 0l1 1a.8.8 0 1 1-1.1 1.1l-1-1a.8.8 0 0 1 0-1.1Zm2.1-9.3a.8.8 0 0 1 0 1.1l-1 1a.8.8 0 1 1-1.1-1.1l1-1a.8.8 0 0 1 1.1 0ZM4.4 11.6a.8.8 0 0 1 0 1.1l-1 1a.8.8 0 1 1-1.1-1.1l1-1a.8.8 0 0 1 1.1 0Z"></path>
+          </svg>
+        </button>
+        <script>
+          (function () {
+            var btn = document.querySelector('.theme-toggle');
+            var css = document.getElementById('dark-css');
+            var system = window.matchMedia('(prefers-color-scheme: dark)');
+            var pl = (document.documentElement.lang || '').indexOf('pl') === 0;
+            function isDark() {
+              return css.media === 'all' || (css.media !== 'not all' && system.matches);
+            }
+            function updateLabel() {
+              var text = isDark()
+                ? (pl ? 'Włącz tryb jasny' : 'Switch to light mode')
+                : (pl ? 'Włącz tryb ciemny' : 'Switch to dark mode');
+              btn.setAttribute('aria-label', text);
+              btn.title = text;
+            }
+            btn.addEventListener('click', function () {
+              var next = isDark() ? 'light' : 'dark';
+              window.ermcSetTheme(next);
+              try { localStorage.setItem('theme', next); } catch (e) {}
+              updateLabel();
+            });
+            if (system.addEventListener) system.addEventListener('change', updateLabel);
+            updateLabel();
+          })();
+        </script>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

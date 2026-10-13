@@ -7,6 +7,42 @@
   background-color: $masthead-background-color;
 }
 
+// Light/dark switch in the header (see masthead.html). Shows a moon in light
+// mode; dark.scss swaps it for a sun.
+.theme-toggle {
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-inline-start: 0.5rem;
+  padding: 0 0.5rem;
+  height: $nav-toggle-height;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  color: $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    color: mix(#000, $primary-color, 25%);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+}
+
+.theme-toggle__sun {
+  display: none;
+}
+
 .lang-switcher {
   -ms-flex-item-align: center;
   align-self: center;
