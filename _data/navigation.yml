@@ -1,6 +1,8 @@
 main:
   - title: "Agenda"
     url: /agenda/
+  - title: "Venue"
+    url: /venue/
   - title: "Participants"
     url: /participants/
   - title: "Registration"
