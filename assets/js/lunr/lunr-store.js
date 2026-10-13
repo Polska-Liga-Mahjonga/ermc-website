@@ -11,9 +11,15 @@ var store = [{
         "url": "/ermc-website/blog/2026/07/08/organisers/",
         "teaser": null
       },{
-        "title": "Transport and venue",
-        "excerpt":"Transport ERMC 2027 takes place in Katowice, Poland. Katowice has an airport located outside the city with connections to destinations across the continent. Kraków Airport is around 2 hours away by train and 1 hour away by car and has even more connections. A train from Warsaw to Katowice takes...","categories": ["blog"],
+        "title": "Getting to Katowice",
+        "excerpt":"ERMC 2027 takes place in Katowice, in southern Poland. The city is well connected by air, rail and road, and the venue is in the city centre, a short walk from the main railway station. Timetables and prices change, so please check the operators’ websites before you travel. By plane...","categories": ["blog"],
         "tags": [],
-        "url": "/ermc-website/blog/2026/07/08/transport_venue/",
+        "url": "/ermc-website/blog/2026/07/08/transport/",
         "teaser": null
+      },{
+        "title": "Venue",
+        "excerpt":"ERMC 2027 takes place in the International Congress Centre in Katowice (Międzynarodowe Centrum Kongresowe, MCK), right in the city centre. Address: plac Sławika i Antalla 1, 40-163 Katowice (map) The building Opened in 2015, MCK is one of the largest congress centres in Poland. It stands in the Katowice Culture...","categories": ["blog"],
+        "tags": [],
+        "url": "/ermc-website/blog/2026/07/08/venue/",
+        "teaser": "/ermc-website/assets/images/venue/mck-exterior.jpg"
       }]
