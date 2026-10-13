@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#c4232b",
     "background_color": "#ffffff",
     "start_url": "https://ermc2027.chombo.club",
     "display": "standalone"

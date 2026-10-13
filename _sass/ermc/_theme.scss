@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Everything the site's stylesheets are built from. Set the colour variables
+   first (see assets/css/main.scss and dark.scss), then import this file.
+   ========================================================================== */
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/functions";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/variables";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/variables-dark";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/maps";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/mixins";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/root";
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/utilities";
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/progress";
+
+@import "../../bootstrap-5.3.8/assets/stylesheets/bootstrap/utilities/api";
+
+@import "minimal-mistakes"; // main partials
+
+$masthead-background-color  : mix(#000, $background-color, 3%) !default;
+
+@import "ermc/site";
