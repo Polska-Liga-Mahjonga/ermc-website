@@ -26,7 +26,7 @@ baseurl: "/ermc-website" # the subpath of your site, e.g. /blog
 url: "https://polska-liga-mahjonga.github.io"
 github_username: Polska-Liga-Mahjonga
 repository: Polska-Liga-Mahjonga/ermc-website
-logo: /assets/images/logo-small.png
+logo: /assets/images/logo.svg
 og_image: /assets/images/logo.png
 
 social:

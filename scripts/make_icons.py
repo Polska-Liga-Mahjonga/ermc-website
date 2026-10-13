@@ -2,11 +2,12 @@
 """Regenerate the site logo and all favicons/app icons from one source image.
 
 Usage:
-    pip install pillow
-    python3 scripts/make_icons.py path/to/new-logo.png
+    pip install pillow cairosvg
+    python3 scripts/make_icons.py assets/images/logo.svg
 
-The source should be a square PNG with a transparent background, ideally at
-least 1200x1200. Run it again whenever the logo changes.
+The source can be an SVG (preferred; needs cairosvg) or a square PNG with a
+transparent background of at least 1200x1200. Run it again whenever the logo
+changes. The masthead shows logo.svg directly, so update that file too.
 """
 import sys
 from pathlib import Path
@@ -18,7 +19,6 @@ IMAGES = Path(__file__).resolve().parent.parent / "assets" / "images"
 # file name -> edge length in px
 SIZES = {
     "logo.png": 1200,  # og:image for link previews
-    "logo-small.png": 256,  # masthead logo
     "android-chrome-512x512.png": 512,
     "android-chrome-192x192.png": 192,
     "mstile-150x150.png": 270,
@@ -39,7 +39,16 @@ def square(img: Image.Image) -> Image.Image:
 def main() -> None:
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    src = square(Image.open(sys.argv[1]).convert("RGBA"))
+    path = Path(sys.argv[1])
+    if path.suffix.lower() == ".svg":
+        import io
+
+        import cairosvg
+
+        png = cairosvg.svg2png(url=str(path), output_width=2048)
+        src = square(Image.open(io.BytesIO(png)).convert("RGBA"))
+    else:
+        src = square(Image.open(path).convert("RGBA"))
 
     for name, size in SIZES.items():
         src.resize((size, size), Image.LANCZOS).save(IMAGES / name, optimize=True)
