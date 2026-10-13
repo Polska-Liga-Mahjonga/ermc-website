@@ -1,8 +1,7 @@
 ---
 layout: single
 title: Venue
-date: 2026-07-08 17:00:00 +0200
-categories: [blog]
+permalink: /venue/
 lang: en
 header:
   image: /assets/images/venue/mck-exterior.jpg

@@ -9,7 +9,7 @@ toc_label: "Getting here"
 ---
 
 ERMC 2027 takes place in Katowice, in southern Poland. The city is well connected by air,
-rail and road, and the [venue]({% post_url 2026-07-08-venue %}) is in the city centre,
+rail and road, and the [venue]({{ '/venue/' | relative_url }}) is in the city centre,
 a short walk from the main railway station.
 
 Timetables and prices change, so please check the operators' websites before you travel.
