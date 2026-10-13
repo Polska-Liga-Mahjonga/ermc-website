@@ -16,10 +16,4 @@ var store = [{
         "tags": [],
         "url": "/ermc-website/blog/2026/07/08/transport/",
         "teaser": null
-      },{
-        "title": "Venue",
-        "excerpt":"ERMC 2027 takes place in the International Congress Centre in Katowice (Międzynarodowe Centrum Kongresowe, MCK), right in the city centre. Address: plac Sławika i Antalla 1, 40-163 Katowice (map) The building Opened in 2015, MCK is one of the largest congress centres in Poland. It stands in the Katowice Culture...","categories": ["blog"],
-        "tags": [],
-        "url": "/ermc-website/blog/2026/07/08/venue/",
-        "teaser": "/ermc-website/assets/images/venue/mck-exterior.jpg"
       }]
