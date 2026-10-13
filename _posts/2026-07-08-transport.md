@@ -44,8 +44,8 @@ Tickets and timetables for all Polish rail operators are on [koleo.pl](https://k
 
 ## By bus
 
-Long-distance buses, such as FlixBus, stop at the bus station right next to the main
-railway station.
+Long-distance buses, such as FlixBus, arrive at the Katowice bus station, about
+5 minutes' walk from the main railway station and around 20 minutes' walk from the venue.
 
 ## By car
 
