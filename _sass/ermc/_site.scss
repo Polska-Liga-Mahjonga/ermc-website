@@ -120,3 +120,41 @@ table.all-borders {
     transform: translateX(-50%);
   }
 }
+
+// Cards with the photo on the left (feature_row type="left", e.g. the hotels).
+.feature__item--left {
+  // A card without a photo uses the full width instead of leaving an empty column.
+  .archive__item:not(:has(.archive__item-teaser)) .archive__item-body {
+    float: none;
+    width: auto;
+    padding-inline-start: 0;
+  }
+
+  // Photo credit: a small line under the photo instead of a box covering it.
+  .archive__item-teaser {
+    overflow: visible;
+
+    img {
+      border-radius: $border-radius;
+    }
+  }
+
+  .archive__item-caption {
+    position: static;
+    display: block;
+    margin-top: 0.3em;
+    padding: 0;
+    color: $muted-text-color;
+    font-family: $sans-serif;
+    font-size: $type-size-8;
+    line-height: 1.4;
+    text-align: start;
+    background: none;
+    border-radius: 0;
+    opacity: 1;
+
+    a {
+      color: inherit;
+    }
+  }
+}
