@@ -22,7 +22,9 @@
       metas[i].setAttribute('content', dark ? '#18171a' : '#f8f8f8');
     }
   };
-  // Apply a saved choice before the page paints, so there is no flash of the wrong theme.
+  /* Apply a saved choice before the page paints, so there is no flash of the wrong theme.
+     Only use block comments like this one in this script: the site's HTML compression
+     joins lines, so a double-slash comment would switch off everything after it. */
   (function () {
     var saved = null;
     try { saved = localStorage.getItem('theme'); } catch (e) {}
