@@ -1,6 +1,6 @@
 var store = [{
         "title": "Accommodation",
-        "excerpt":"Hotel Diament Spodek Katowice*** is located in the same building complex and we are planning to contact them regarding possible discounts for players. As the venue is in the city centre, there are many other accommodation options available, such as the Courtyard by Marriott, which is 650 metres from the...","categories": ["blog"],
+        "excerpt":"The venue is in the centre of Katowice, so there are plenty of hotels within walking distance. Here are some options, from right next door to a short walk away. Walking times are approximate. Player discounts: we are asking several of these hotels for discount codes for ERMC players. Codes...","categories": ["blog"],
         "tags": [],
         "url": "/ermc-website/blog/2026/07/08/accommodation/",
         "teaser": null
