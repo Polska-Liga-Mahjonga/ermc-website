@@ -26,8 +26,9 @@ venue_hotels:
 
 near_hotels:
   - title: "voco Katowice"
-    # image_path: /assets/images/hotels/voco.jpg
-    # alt: "voco Katowice"
+    image_path: /assets/images/hotels/voco.jpg
+    alt: "voco Katowice"
+    image_caption: "Photo: Adrian Tync, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       Modern hotel with a restaurant, gym and pool, about 10 minutes' walk from the venue.
 
@@ -36,8 +37,9 @@ near_hotels:
     btn_label: "Hotel website"
     btn_class: "btn--primary"
   - title: "Courtyard by Marriott Katowice City Center"
-    # image_path: /assets/images/hotels/courtyard.jpg
-    # alt: "Courtyard by Marriott Katowice City Center"
+    image_path: /assets/images/hotels/courtyard.jpg
+    alt: "Courtyard by Marriott Katowice City Center"
+    image_caption: "Photo: Matti Blume, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       High-rise hotel with city views and a top-floor restaurant, about 10 minutes'
       walk from the venue.
@@ -47,8 +49,9 @@ near_hotels:
     btn_label: "Hotel website"
     btn_class: "btn--primary"
   - title: "Novotel Katowice Centrum"
-    # image_path: /assets/images/hotels/novotel.jpg
-    # alt: "Novotel Katowice Centrum"
+    image_path: /assets/images/hotels/novotel.jpg
+    alt: "Novotel Katowice Centrum"
+    image_caption: "Photo: Marek Mróz, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       Large hotel with a pool and sauna, about 12 minutes' walk from the venue.
 
@@ -57,8 +60,9 @@ near_hotels:
     btn_label: "Hotel website"
     btn_class: "btn--primary"
   - title: "ibis budget Katowice Centrum"
-    # image_path: /assets/images/hotels/ibis-budget.jpg
-    # alt: "ibis budget Katowice Centrum"
+    image_path: /assets/images/hotels/ibis-budget.jpg
+    alt: "ibis budget Katowice Centrum"
+    image_caption: "Photo: Panek, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       The budget option, next door to the Novotel and about 12 minutes' walk from the
       venue. The airport bus stops right by the hotel.
@@ -70,8 +74,9 @@ near_hotels:
 
 centre_hotels:
   - title: "Vienna House Easy by Wyndham Katowice"
-    # image_path: /assets/images/hotels/vienna-house.jpg
-    # alt: "Vienna House Easy by Wyndham Katowice"
+    image_path: /assets/images/hotels/vienna-house.jpg
+    alt: "Vienna House Easy by Wyndham Katowice"
+    image_caption: "Photo: Marek Mróz, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       Modern hotel close to the city centre, about 15 minutes' walk from the venue.
 
@@ -80,8 +85,9 @@ centre_hotels:
     btn_label: "Hotel website"
     btn_class: "btn--primary"
   - title: "Hotel Monopol"
-    # image_path: /assets/images/hotels/monopol.jpg
-    # alt: "Hotel Monopol"
+    image_path: /assets/images/hotels/monopol.jpg
+    alt: "Hotel Monopol"
+    image_caption: "Photo: Gower, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       Historic five-star hotel from 1902 with a spa and pool, near the main railway
       station and about 15–20 minutes' walk from the venue.
