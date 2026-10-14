@@ -57,7 +57,7 @@ plugins:
 timezone: Europe/Warsaw
 search: true
 
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:title/  # posts live at /<file name without the date>/
 lang: en
 
 paginate: 10
