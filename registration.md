@@ -17,6 +17,4 @@ chooses its own delegation.
 on it, before you send your registration.** If you are not sure whether you are in your
 country's delegation, ask your national organisation first.
 
-Players from outside Europe take part by invitation from the organisers.
-
 Questions about registration? [Contact us]({{ '/contact/' | relative_url }}).
