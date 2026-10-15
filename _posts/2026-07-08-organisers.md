@@ -7,8 +7,9 @@ lang: en
 ---
 
 Main organiser:
-- Polish League of Mahjong (PLM) #TODO dodać link
+- [Polish League of Mahjong (PLM)](http://mahjong.org.pl)
 
 Support:
 - [Upper Silesian Mahjong Association (USMA)](https://mahjongsilesia.wordpress.com/)
 - [Kraków Chombo Club Association](https://chombo.club/)
+- [Mahjong Kaszëbë](https://mahjongkaszebe.pl)
