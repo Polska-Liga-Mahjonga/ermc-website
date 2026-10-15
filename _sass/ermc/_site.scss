@@ -158,3 +158,24 @@ table.all-borders {
     }
   }
 }
+
+// Introduction at the top of the home page.
+.home-intro {
+  margin-bottom: 2em;
+
+  .home-intro__lead {
+    font-size: 1.25em;
+    line-height: 1.4;
+  }
+
+  .home-intro__facts {
+    padding: 1em 1.25em 1em 2.25em;
+    border-inline-start: 4px solid $primary-color;
+    background-color: $code-background-color;
+    border-radius: $border-radius;
+
+    li {
+      margin-bottom: 0.25em;
+    }
+  }
+}
