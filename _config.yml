@@ -59,6 +59,7 @@ search: true
 
 permalink: /:title/  # posts live at /<file name without the date>/
 lang: en
+locale: en  # selects the "en" texts in _data/ui-text.yml (site name in titles and footer)
 
 paginate: 10
 paginate_path: /page/:num/
