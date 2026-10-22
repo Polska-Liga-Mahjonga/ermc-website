@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Accommodation",
-        "excerpt":"The venue is in the centre of Katowice, so there are plenty of hotels within walking distance. Here are some options, from right next door to a short walk away. Walking times are approximate. Player discounts: we are asking several of these hotels for discount codes for ERMC players. Codes...","categories": ["blog"],
+        "excerpt":"The venue is in the centre of Katowice, so there are plenty of hotels within walking distance. Here are some options, from right next door to a short walk away. Walking times are approximate. Prices are a rough guide to the cheapest room, based on autumn 2026 rates. August prices...","categories": ["blog"],
         "tags": [],
         "url": "/accommodation/",
         "teaser": null
