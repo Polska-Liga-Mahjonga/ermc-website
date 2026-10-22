@@ -8,6 +8,7 @@ lang: en
 # Hotel cards.
 # - Photo: put the image in assets/images/hotels/ and uncomment the image_path
 #   and alt lines for that hotel.
+# - Price: rough guide only; update the "**Price:**" line in each excerpt.
 # - Discount code: add a line to that hotel's excerpt, above the address, e.g.
 #       **Discount code:** ERMC2027, valid for bookings until 30 June 2027
 venue_hotels:
@@ -18,6 +19,8 @@ venue_hotels:
       Inside the Spodek building, a couple of minutes' walk from the playing hall.
       A simple three-star hotel with 30 rooms. Parking is available on site but must
       be booked in advance.
+
+      **Price:** about €70 per night
 
       *al. Korfantego 35*
     url: "https://www.hotelediament.pl/hotele/hotel-diament-spodek/"
@@ -32,6 +35,8 @@ near_hotels:
     excerpt: |
       Modern hotel with a restaurant, gym and pool, about 10 minutes' walk from the venue.
 
+      **Price:** about €100 per night
+
       *al. Korfantego 9*
     url: "https://www.ihg.com/voco/hotels/us/en/katowice/ktwkp/hoteldetail"
     btn_label: "Hotel website"
@@ -44,6 +49,8 @@ near_hotels:
       High-rise hotel with city views and a top-floor restaurant, about 10 minutes'
       walk from the venue.
 
+      **Price:** about €115 per night
+
       *ul. Uniwersytecka 13*
     url: "https://www.marriott.com/hotels/travel/ktwcy-courtyard-katowice-city-center"
     btn_label: "Hotel website"
@@ -54,6 +61,8 @@ near_hotels:
     image_caption: "Photo: Marek Mróz, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons"
     excerpt: |
       Large hotel with a pool and sauna, about 12 minutes' walk from the venue.
+
+      **Price:** about €90 per night
 
       *al. Roździeńskiego 16*
     url: "https://all.accor.com/hotel/3377/index.en.shtml"
@@ -66,6 +75,8 @@ near_hotels:
     excerpt: |
       The budget option, next door to the Novotel and about 12 minutes' walk from the
       venue. The airport bus stops right by the hotel.
+
+      **Price:** about €50 per night
 
       *al. Roździeńskiego 18*
     url: "https://all.accor.com/hotel/6601/index.en.shtml"
@@ -80,8 +91,24 @@ centre_hotels:
     excerpt: |
       Modern hotel close to the city centre, about 15 minutes' walk from the venue.
 
+      **Price:** about €95 per night
+
       *ul. Sokolska 24*
     url: "https://www.wyndhamhotels.com/vienna-house/katowice-poland/vienna-house-easy-katowice/overview"
+    btn_label: "Hotel website"
+    btn_class: "btn--primary"
+  - title: "B&B Hotel Katowice Centrum"
+    # image_path: /assets/images/hotels/bb-hotel.jpg
+    # alt: "B&B Hotel Katowice Centrum"
+    excerpt: |
+      Good-value hotel in the city centre, about 10 minutes' walk from the main railway
+      station and about 20 minutes' walk from the venue, or a short tram ride.
+      Breakfast is available for an extra charge.
+
+      **Price:** about €65 per night
+
+      *ul. Sokolska 4*
+    url: "https://www.hotel-bb.com/en/hotel/katowice-centrum"
     btn_label: "Hotel website"
     btn_class: "btn--primary"
   - title: "Hotel Monopol"
@@ -92,6 +119,8 @@ centre_hotels:
       Historic five-star hotel from 1902 with a spa and pool, near the main railway
       station and about 15–20 minutes' walk from the venue.
 
+      **Price:** about €155 per night
+
       *ul. Dworcowa 5*
     url: "https://monopolkatowice.hotel.com.pl/hotel-monopol-katowice"
     btn_label: "Hotel website"
@@ -101,6 +130,9 @@ centre_hotels:
 The [venue]({{ '/venue/' | relative_url }}) is in the centre of Katowice, so there are
 plenty of hotels within walking distance. Here are some options, from right next door
 to a short walk away. Walking times are approximate.
+
+Prices are a rough guide to the cheapest room, based on autumn 2026 rates. August prices
+may differ, so check the hotel's website for your dates.
 
 **Player discounts:** we are asking several of these hotels for discount codes for
 ERMC players. Codes will be added to the hotels below as soon as we have them.
