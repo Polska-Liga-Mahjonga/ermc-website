@@ -49,8 +49,8 @@ For a look at the venue in action, here is the video from our previous tournamen
 
 Catering at MCK is provided by the venue's own partner caterers, who regularly serve
 large international events and can prepare meals for a wide range of diets, including
-plenty of meat-free options. Food and drink are also sold at the venue during events.
-Details of meals during the championship will be announced closer to the date.
+plenty of meat-free options. Lunch on all three tournament days and the coffee breaks are included in the
+[registration fee]({{ '/registration/' | relative_url }}).
 
 ## Getting there and staying nearby
 

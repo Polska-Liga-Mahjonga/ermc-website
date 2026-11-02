@@ -16,7 +16,7 @@ lang: en
   </tr>
   <tr>
     <td>17:00-20:00</td>
-    <td>EMA Grand Assembly</td>
+    <td>EMA Special General Assembly</td>
   </tr>
 </tbody>
 <thead>
