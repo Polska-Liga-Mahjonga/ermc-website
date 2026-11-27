@@ -91,7 +91,7 @@ centre_hotels:
     excerpt: |
       Modern hotel close to the city centre, about 15 minutes' walk from the venue.
 
-      **Price:** about €95 per night
+      **Price:** about €80 per night
 
       *ul. Sokolska 24*
     url: "https://www.wyndhamhotels.com/vienna-house/katowice-poland/vienna-house-easy-katowice/overview"
